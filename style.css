@@ -734,10 +734,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -746,8 +743,6 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 @media (max-width: 767px) {
@@ -899,17 +894,23 @@ h4 {
   margin-top: 40px;
 }
 
-.social {
+.social_contact {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .col-sm-4 {
+    padding: 0 20px;
   }
 }
 @media (max-width: 767px) {
