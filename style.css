@@ -245,6 +245,7 @@ a:hover {
 #bloc-1-hero h1 {
   font-size: 32px;
 }
+
 .navbar {
   margin-bottom: 0;
   z-index: 1;
@@ -902,6 +903,32 @@ h4 {
   justify-content: space-between;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+#bloc-2-services h2 {
+  font-size: 28px;
+}
+
+.testimonial {
+  max-width: 570px;
+}
+
+.testimonial h3 {
+  line-height: 1.6;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.712) !important;
+}
+
+.voffset {
+  margin-top: 40px;
+}
+
+.blockquote {
+  margin-bottom: 0px;
+}
+
+.testimonial p {
+  line-height: 1;
 }
 
 @media (max-width: 400px) {
