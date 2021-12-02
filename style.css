@@ -633,6 +633,10 @@ h4 {
 .white {
   color: #ffffff !important;
 }
+
+.black {
+  color: black !important;
+}
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -646,7 +650,7 @@ h4 {
 .black-background {
   /* background-color: rgba(165, 147, 99, 0.7); */
   background-color: #424242c9;
-  padding: 40px 40px 40px 40px;
+  padding: 10px 10px 10px 10px;
   /* border-radius: 92% 8% 93% 7% / 19% 76% 24% 81%; */
   border-radius: 5px 32px 5px;
   border: 2px solid #f3976c;
@@ -670,7 +674,8 @@ h4 {
 }
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  /* color: #ffffff !important; */
+  color: black !important;
 }
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
@@ -939,6 +944,7 @@ h4 {
 .blockquote cite {
   font-size: 15px;
   font-style: normal;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .testimonial p {
