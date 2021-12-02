@@ -957,8 +957,8 @@ address {
 
 @media (max-width: 400px) {
   .bloc {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   .black-background {
@@ -980,6 +980,10 @@ address {
 
   .col-sm-4 li {
     margin-bottom: 10px;
+  }
+
+  .social_contact_2 {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 767px) {
