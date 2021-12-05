@@ -738,8 +738,7 @@ h4 {
 }
 
 .white {
-  /* color: #FFFFFF!important; */
-  color: black !important;
+  color: #ffffff !important;
 }
 
 .portfolio-thumb {
@@ -826,10 +825,6 @@ h4 {
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.bmp");
-}
-
-.black {
-  color: black !important;
 }
 
 @media (max-width: 1024px) {
