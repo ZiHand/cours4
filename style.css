@@ -1047,5 +1047,9 @@ h4 {
 }
 
 .black {
-  color: black;
+  color: black !important;
+}
+
+.d-bloc a .icon-md {
+  color: black !important;
 }
