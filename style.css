@@ -517,9 +517,11 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  opacity: 1;
   z-index: 500;
   transition: all 0.3s ease-in-out;
+
+  border: 2px solid rgba(255, 255, 255, 0.699);
 }
 
 .scrollToTop span {
@@ -822,7 +824,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-  /* background-image: url("img/lines-h2-bg.png"); */
+  background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
