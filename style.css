@@ -741,6 +741,10 @@ h4 {
   color: #ffffff !important;
 }
 
+.black {
+  color: black !important;
+}
+
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -755,8 +759,8 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
-  padding: 40px 40px 40px 40px;
+  background-color: #424242c9;
+  padding: 10px 10px 10px 10px;
 }
 
 .bold-link {
@@ -778,11 +782,13 @@ h4 {
 
 .tc-white {
   color: #f3976c !important;
+  /* color: #ebbba4 !important; */
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  /* color: #ffffff !important; */
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
