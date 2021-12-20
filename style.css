@@ -818,11 +818,11 @@ h4 {
 }
 
 .bg-dots-bg {
-  /* background-image: url("img/dots-bg.png"); */
+  background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  /* background-image: url("img/lines-h2-bg.png"); */
 }
 
 .bg-banniere {
@@ -831,6 +831,17 @@ h4 {
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.bmp");
+}
+
+.blockquote {
+  margin-bottom: 0px;
+  border-left: 5px solid #f3976c !important;
+}
+
+.blockquote cite {
+  font-size: 15px;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 1024px) {
