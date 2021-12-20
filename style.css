@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.842);
 }
 
 .d-bloc .a-btn:hover,
@@ -845,6 +845,15 @@ h4 {
   font-style: normal;
   color: rgba(0, 0, 0, 0.7);
 }
+
+/* .social_contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+} */
 
 @media (max-width: 1024px) {
   .bloc {
