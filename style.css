@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.842);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -320,6 +320,10 @@ a:hover {
   margin-right: -16px;
   float: right;
   z-index: 1;
+}
+
+.bold-link:focus {
+  border: 1px solid black;
 }
 
 .nav > li {
@@ -517,11 +521,9 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 1;
+  opacity: 0;
   z-index: 500;
   transition: all 0.3s ease-in-out;
-
-  border: 2px solid rgba(255, 255, 255, 0.699);
 }
 
 .scrollToTop span {
@@ -704,8 +706,9 @@ p {
 }
 
 .social {
+  display: block;
   max-width: 400px;
-  margin: auto auto 50px auto;
+  margin: auto auto auto auto;
 }
 
 h2 {
@@ -743,10 +746,6 @@ h4 {
   color: #ffffff !important;
 }
 
-.black {
-  color: black !important;
-}
-
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -761,8 +760,8 @@ h4 {
 }
 
 .black-background {
-  background-color: #424242c9;
-  padding: 10px 10px 10px 10px;
+  background-color: rgba(165, 147, 99, 0.7);
+  padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
@@ -784,13 +783,11 @@ h4 {
 
 .tc-white {
   color: #f3976c !important;
-  /* color: #ebbba4 !important; */
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  /* color: #ffffff !important; */
-  color: black !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -835,26 +832,6 @@ h4 {
   background-image: url("img/image-de-presentation.bmp");
 }
 
-.blockquote {
-  margin-bottom: 0px;
-  border-left: 5px solid #f3976c !important;
-}
-
-.blockquote cite {
-  font-size: 15px;
-  font-style: normal;
-  color: rgba(0, 0, 0, 0.7);
-}
-
-/* .social_contact {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  margin-top: 20px;
-} */
-
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -878,13 +855,13 @@ h4 {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -903,8 +880,8 @@ h4 {
     position: relative;
   }
   .bloc {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
   }
   .bloc-group,
   .bloc-group .bloc {
@@ -914,8 +891,8 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
   }
 }
 
@@ -1069,4 +1046,21 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+
+/* **** Focus **** */
+
+.navbar-header a:focus,
+.navbar-nav > li > a:focus {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.btn:focus {
+  border: 1px solid black;
+}
+
+.social:focus {
+  border: 1px solid black;
+  border-radius: 15px;
 }
