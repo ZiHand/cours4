@@ -707,6 +707,7 @@ p {
 }
 
 .social {
+  display: block;
   max-width: 400px;
   margin: auto auto 50px auto;
 }
