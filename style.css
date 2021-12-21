@@ -840,7 +840,7 @@ h4 {
 }
 
 .blockquote {
-  margin-bottom: 0px;
+  margin-bottom: 40px;
   border-left: 5px solid #f3976c !important;
 }
 
@@ -1093,11 +1093,21 @@ h4 {
     max-width: 50px;
     margin: auto auto 10px auto;
   }
+
+  .blockquote {
+    margin-bottom: 20px;
+    border-left: 5px solid #f3976c !important;
+  }
 }
 
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+
+  #bloc-2-services {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
