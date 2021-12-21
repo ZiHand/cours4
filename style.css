@@ -322,6 +322,10 @@ a:hover {
   z-index: 1;
 }
 
+.bold-link:focus {
+  border: 1px solid black;
+}
+
 .nav > li {
   float: left;
   margin-top: 4px;
@@ -1068,4 +1072,21 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+
+/* **** Focus **** */
+
+.navbar-header a:focus,
+.navbar-nav > li > a:focus {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.btn:focus {
+  border: 1px solid black;
+}
+
+.social:focus {
+  border: 1px solid black;
+  border-radius: 15px;
 }
