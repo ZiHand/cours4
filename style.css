@@ -1090,6 +1090,7 @@ h4 {
   }
 
   .social {
+    max-width: 50px;
     margin: auto auto 10px auto;
   }
 }
@@ -1113,6 +1114,11 @@ h4 {
 }
 
 .social:focus {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#nav-toggle:focus {
   border: 1px solid black;
   border-radius: 15px;
 }
