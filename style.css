@@ -1084,6 +1084,14 @@ h4 {
   .col-sm-6 img {
     width: 100%;
   }
+
+  .navbar .nav {
+    margin-right: 0px;
+  }
+
+  .social {
+    margin: auto auto 10px auto;
+  }
 }
 
 @media (max-width: 767px) {
