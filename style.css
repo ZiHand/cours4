@@ -684,7 +684,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -1066,6 +1066,23 @@ h4 {
   .bloc {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .col-sm-4 {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  .col-sm-4 a {
+    font-size: 20px;
+  }
+
+  .col-sm-4 li {
+    margin-bottom: 10px;
+  }
+
+  .col-sm-6 img {
+    width: 100%;
   }
 }
 
