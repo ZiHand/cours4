@@ -90,11 +90,6 @@ a:hover {
   right: 0;
 }
 
-.texture-paper::before {
-  background: url("img/texture-paper.webp");
-  background-size: 280px 280px;
-}
-
 .b-parallax {
   background-attachment: fixed;
 }
@@ -767,6 +762,8 @@ h4 {
 .black-background {
   background-color: #424242c9;
   padding: 10px 10px 10px 10px;
+  border-radius: 20px 0px 20px 0px;
+  border: solid 2px #f3976c;
 }
 
 .bold-link {
@@ -1010,7 +1007,7 @@ h4 {
   .bloc-xxl,
   .bloc-xl,
   .bloc-lg {
-    padding: 40px 0;
+    padding: 0px 0;
   }
   .bloc-sm,
   .bloc-md {
